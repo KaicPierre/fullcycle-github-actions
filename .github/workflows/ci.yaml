@@ -4,7 +4,7 @@ on:
     branches:
       - develop
 jobs:
-  build:
+  validation:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
